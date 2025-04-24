@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+    min-width: 1280px;
+    height: 100% auto;
+}
+
+header{
+    margin-top: 96px;
+    background: #ffffff;
+    text-align: center;
+    align-items: center;
+}
+.cabeçalho{
+    position: relative;
+    width: 100% auto;
+    margin: 0 auto;
+    text-align: center;
+    display: flex; 
+    align-items: center;
+}
+h1 img {
+    max-height: 50px;
+    margin-left: 40px; 
+}
+nav {
+    position: relative;
+    top: 0;
+    display: inline-block;
+    margin-top: 5px;
+    justify-content: space-between;
+}
+nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none; 
+    margin-left: 90px;
+}
+nav li {
+    display: inline-block;
+    margin: 0 15px; 
+}
+nav a {
+    color: #667085;
+    text-decoration: none;
+}
+
+.btn{
+    margin-left: 400px;
+}
+
+
+.cadastro{
+    color: #ffffff;
+    padding: 10px;
+    background-color: #8E2424;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.cadastro:hover{
+    transition: 0.7s ease;
+    background-color: #b13333;
+}
+
+.landing-page p{
+    color: #667085;
+}
+
+.landing-page span{
+    color: #8E2424;
+}
+
+section.metricas{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 100px;
+}
+
+section.metricas p{
+    font-size: 14px;
+    color: #667085;
+}
+
+section.metricas h3{
+    font-size: 17px;
+}
+
+section.metricas h1{
+    font-size: 3rem;
+    color: #8E2424;
+}
+
+section.talents{
+    width: 100% auto;
+    height: 100% auto;
+    margin-top: 100px;
+    text-align: center;
+}
+
+section.talents h4{
+    font-size: 14px;
+    color: #8E2424;
+    background-color: rgba(142, 36, 36, 0.05);
+    padding: 5px 15px 5px 15px;
+    display: inline-block;
+    border-radius: 999px;
+}
+
+section.talents p{
+    color: #667085;
+}
+
+section.talents img{
+    max-height: 400px;
+    max-width: 1100px;
+}
+
+section.vagas-abertas{
+    margin-left: 300px;
+    margin-top: 64px;
+}
+
+.card-vagas{
+    width: 650px;
+    height: 95px;
+    margin-bottom: 15px;
+    padding: 5px;
+    border: 1px solid #ced4e0;
+    border-radius: 7px;
+    flex-direction: column;
+    padding: 24px 24px 24px;
+}
+
+section.vagas-abertas h2{
+    font-size: 25px;
+}
+
+section.vagas-abertas h3{
+    font-size: 17px;
+}
+
+section.vagas-abertas p{
+    font-size: 13px;
+    color: #667085;
+}
+
+.paragrafo-vagas{
+    display: flex;
+    gap: 20px;
+}
+
+.software-developer{
+    margin-top: 64px;
+}
+
+section.testimonials{
+    margin-top: 100px;
+    text-align: center;
+}
+
+section.testimonials h2{
+    font-size: 12px;
+    color: #8E2424;
+}
+
+section.testimonials h1{
+    font-size: 35px;
+    color: #000;
+}
+
+section.testimonials p{
+    font-size: 14px;
+    color: #667085;
+}
+
+section.footer{
+    margin-top: 100px;
+    text-align: center;
+    background-color: rgba(249, 250, 251, 1);
+    padding: 40px;
+}
+
+.subtitle{
+    font-size: 17px;
+    color: #667085;
+}
+section.footer h1{
+    font-size: 35px;
+    color: #000;
+}
+
+.copy{
+    margin-top: 20px;
+    font-size: 14px;
+    color: #667085;
+}
+
+section.footer input {
+    padding: 10px;
+    border: 1px solid #ced4e0;
+    border-radius: 5px;
+    width: 300px;
+}
+
+section.footer button {
+    padding: 10px 20px;
+    background-color: #8E2424;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
